@@ -1,0 +1,17 @@
+
+  <view class="mainzhong">
+    <!-- 卡片区域 -->
+    <view class="carli"  wx:for="{{xainglist}}" wx:key="index">
+      <view class="picc">
+        <image src="../../assets/images/zhong.png"/>
+      </view>
+      <view class="cenhan">
+        <view class="shaung">
+          巨无霸双人堡套餐
+          <van-icon name="cross"/>30
+        </view>
+        <view>9月2日10: 00自动开奖</view>
+      </view>
+      <view class="rightyou">{{item.test}}</view>
+    </view>
+  </view>

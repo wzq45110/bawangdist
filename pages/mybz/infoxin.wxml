@@ -1,0 +1,45 @@
+
+  <view class="maininfo">
+    <!-- 头部区域 -->
+    <view class="topinfo">
+      <view>头像</view>
+      <view class="xiabu">
+        <view class="tuee"/>
+        <view style="margin-left:20rpx;">
+          <van-icon name="arrow"/>
+        </view>
+      </view>
+    </view>
+    <!-- 二栏 -->
+    <!-- <van-cell title="单元格" is-link /> -->
+    <view class="erlan">
+      <van-cell size="large" title="昵称" value="肠子hhh" is-link="is-link" border="false"/>
+    </view>
+    <!-- 内容区域 -->
+    <view class="mainbutc">
+      <view class="comtop">
+        <van-cell size="large" title="性别" value="男" is-link="is-link" border="false"/>
+        <van-cell size="large" title="生日" value="2018-3-3" is-link="is-link" border="false"/>
+        <van-cell size="large" title="地区" value="武汉" is-link="is-link" border="false"/>
+      </view>
+      <view class="comtop">
+        <van-cell size="large" title="个性签名" value="品茶香，知茶趣;" is-link="is-link" border="false"/>
+        <van-cell size="large" title="绑定手机" value="156*****123" is-link="is-link" border="false"/>
+        <van-cell size="large" title="收货地址" value="修改/添加" is-link="is-link" border="false" url="/pages/mybz/getdre"/>
+      </view>
+      <!-- 按钮区域 -->
+      <view class="butchu">退出登录</view>
+      <!-- 中栏 -->
+
+      <!-- <van-cell title="性别" value="男" is-link />
+        <van-cell title="生日" is-link value="2018-2-2" />
+      <van-cell title="地区" is-link value="南昌市" />-->
+      <!-- 下栏 -->
+      <!-- <view class="comtop">
+        <van-cell title="个性签名" value="品茶香，知茶趣;" is-link />
+        <van-cell title="绑定手机" is-link value="156*****123" />
+        <van-cell title="收货地址" is-link value="修改/添加" />
+      </view>
+      -->
+    </view>
+  </view>

@@ -1,0 +1,125 @@
+
+  <view class="guanzhumain">
+    <view class="shangguan">
+      <navigator url="/pages/mybz/shanghu" hover-class="none"  wx:for="{{3}}" wx:key="index">
+        <view class="tulogo">
+          <image src="../../assets/images/oppo.png"/>
+        </view>
+      </navigator>
+      <!-- <view class="tulogo">
+        <image src="../../assets/images/oppo.png" />
+      </view>
+      <view class="tulogo">
+        <image src="../../assets/images/oppo.png" />
+      </view> -->
+    </view>
+    <!-- 卡片区域 -->
+    <view class="crsadmain">
+      <view class="neicar">
+        <!-- 内容区域 1-->
+        <view class="wepjiang">
+          <!-- 图片区域 -->
+          <view class="pic">
+            <image src="../../assets/images/logoo1_02.png"/>
+          </view>
+          <!-- 文字区域 -->
+          <view class="textp">
+            <view style="font-size:40rpx;">
+              巨无霸双人汉堡
+              <van-icon name="cross"/>30
+            </view>
+            <view style="color:#ccc; font-size:30rpx;">
+              <van-icon color="orange" name="location-o"/>
+              <van-icon name="arrow-left"/>500
+            </view>
+          </view>
+          <!-- 文字区域2 -->
+          <view class="wenzixia">
+            <view class="waibu">
+              <view class="shangbu">
+                <view>麦肯基西乡店</view>
+                <view class="zanan" style="font-size:20rpx;">
+                  <navigator url="/pages/bxqy/anzhu" hover-class="navigator-hover">赞助</navigator>
+                </view>
+              </view>
+              <view style="color:#ccc; font-size:30rpx;">9月2日10: 00 自动开奖</view>
+            </view>
+            <view class="anniuniu" bindtap="quebawang">
+              <!-- <van-button color="orange" round type="info">参与</van-button> -->
+              参与
+            </view>
+          </view>
+        </view>
+        <!-- 内容区域2 -->
+        <view class="tianhong">
+          <view class="shnagtian">
+            <view class="lefttulo">
+              <image src="../../assets/images/hong.png"/>
+            </view>
+            <view style="margin-right:20rpx; font-size:20rpx; color:#ccc;">一小时前</view>
+          </view>
+          <view class="tucare">
+            <view class="tucarekk">
+              <image src="../../assets/images/opp.png"/>
+            </view>
+            <view class="shuomin">
+              <view>天虹购物中心周年庆典 全场8折</view>
+              <view>活动时间9月1日-9月7日</view>
+            </view>
+          </view>
+        </view>
+        <!-- 内容三 同区域1 -->
+        <view class="wepjiang">
+          <!-- 图片区域 -->
+          <view class="pic">
+            <image src="../../assets/images/logoo_02.png"/>
+          </view>
+          <!-- 文字区域 -->
+          <view class="textp">
+            <view style="font-size:40rpx;">
+              巨无霸双人汉堡
+              <van-icon name="cross"/>30
+            </view>
+            <view style="color:#ccc; font-size:30rpx;">
+              <van-icon color="orange" name="location-o"/>
+              <van-icon name="arrow-left"/>500
+            </view>
+          </view>
+          <!-- 文字区域2 -->
+          <view class="wenzixia">
+            <view class="waibu">
+              <view class="shangbu">
+                <view>麦肯基西乡店</view>
+                <view class="zanan" style="font-size:20rpx;">
+                  <navigator url="/pages/bxqy/anzhu" hover-class="navigator-hover">赞助</navigator>
+                </view>
+              </view>
+              <view style="color:#ccc; font-size:30rpx;">9月2日10: 00 自动开奖</view>
+            </view>
+            <view class="anniuniu" bindtap="quebawang">
+              <!-- <van-button color="orange" round type="info">参与</van-button> -->
+              参与
+            </view>
+          </view>
+        </view>
+        <!-- 内容四 同区域2 -->
+        <view class="tianhong">
+          <view class="shnagtian">
+            <view class="lefttulo">
+              <image src="../../assets/images/oppo.png"/>
+            </view>
+            <view style="margin-right:20rpx; font-size:20rpx; color:#ccc;">昨天</view>
+          </view>
+          <view class="tucare">
+            <view class="tucarekk">
+              <image src="../../assets/images/opp.png"/>
+            </view>
+            <view class="shuomin">
+              <view>oppo手机上新季</view>
+              <view>点击进入领取百元代金券</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>

@@ -1,0 +1,115 @@
+
+  <view class="mymain">
+    <!-- 顶部区域 -->
+    <view class="mymaintop">
+      <view class="leftpic">
+        <view class="picnei">
+          <van-icon name="manager"/>
+        </view>
+        <view style="color:white; text-align: center;" class="ziti">用户名</view>
+      </view>
+      <view class="rightpeo" bindtap="taizhaun">
+        <view>个人资料</view>
+        <view>
+          <van-icon color="wihte" name="arrow"/>
+        </view>
+      </view>
+    </view>
+    <!-- 卡片栏 -->
+    <view class="carlan">
+      <view class="zhuwen"  wx:for="{{daolist}}" wx:key="index">
+        <navigator url="{{item.url_to}}" hover-class="none"  w:if="{{item.url_to !== undefined}}">
+          <view style="color:orange; font-size:60rpx; font-weight:bold;">{{item.number_i}}</view>
+          <viwe style="color:#999999;">{{item.test}}</viwe>
+        </navigator>
+      </view>
+    </view>
+    <!-- 单元格栏 -->
+    <view class="buttonxia">
+      <view class="asdkadk" bindtap="gobaqizhi">
+        <view class="leftme">
+          <view class="sfjoi">
+            <van-icon size="20" color="#FF7900" name="add"/>
+          </view>
+          <text style="margin-left:10rpx;">霸气值</text>
+        </view>
+        <view class="rightme">
+          <text style="font-size:40rpx;font-weight:900rpx;color:#FF7900; margin-right:10rpx;">360</text>
+          <view class="tuba">
+            <van-icon size="20" name="arrow"/>
+          </view>
+        </view>
+      </view>
+
+      <!-- <view>
+        <van-cell title="霸气值" is-link value="360" icon="hot-o" url="/pages/mybf/hotstore"></van-cell>
+        <van-cell title="官方APP/公众号/小程序" is-link icon="graphic"></van-cell>
+      </view>
+      <view class="tbhe">
+        <van-cell title="官方微信(关注不迷路)" is-link icon="chat"></van-cell>
+      </view>
+      <view>
+        <van-cell title="推荐有奖" is-link icon="gold-coin" url="/pages/mybf/warn"></van-cell>
+        <van-cell title="更多" is-link icon="more"></van-cell>
+      </view>-->
+      <view class="linxian"/>
+      <view class="asdkadk">
+        <view class="leftme">
+          <view class="sfjoi">
+            <van-icon size="20" color="#48AFDC" name="graphic"/>
+          </view>
+          <text style="margin-left:10rpx;">官方APP/公众号/小程序</text>
+        </view>
+        <view class="rightme">
+          <text style="font-size:30rpx;font-weight:700rpx;color:#FF7900; margin-right:10rpx; margin-top:5rpx;"/>
+          <view class="tuba">
+            <van-icon size="20" name="arrow"/>
+          </view>
+        </view>
+      </view>
+      <view class="asdkadk" style="margin-top:30rpx">
+        <view class="leftme">
+          <view class="sfjoi">
+            <van-icon size="20" color="#01C80A" name="chat"/>
+          </view>
+          <text style="margin-left:10rpx;">官方微信(关注不迷路)</text>
+        </view>
+        <view class="rightme">
+          <text style="font-size:30rpx;font-weight:700rpx;color:#FF7900; margin-right:10rpx; margin-top:5rpx;"/>
+          <view class="tuba">
+            <van-icon size="20" name="arrow"/>
+          </view>
+        </view>
+      </view>
+
+      <view class="asdkadk" style="margin-top:30rpx" bindtap="gotuijian">
+        <view class="leftme">
+          <view class="sfjoi">
+            <van-icon size="20" color="#FF7900" name="gold-coin"/>
+          </view>
+          <text style="margin-left:10rpx;">推荐有奖</text>
+        </view>
+        <view class="rightme">
+          <text style="font-size:30rpx;font-weight:700rpx;color:#FF7900; margin-right:10rpx; margin-top:5rpx;"/>
+          <view class="tuba">
+            <van-icon size="20" name="arrow"/>
+          </view>
+        </view>
+      </view>
+      <view class="linxian"/>
+      <view class="asdkadk">
+        <view class="leftme">
+          <view class="sfjoi">
+            <van-icon size="20" color="#48AFDC" name="more"/>
+          </view>
+          <text style="margin-left:10rpx;">更多</text>
+        </view>
+        <view class="rightme">
+          <text style="font-size:30rpx;font-weight:700rpx;color:#FF7900; margin-right:10rpx; margin-top:5rpx;"/>
+          <view class="tuba">
+            <van-icon size="20" name="arrow"/>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>

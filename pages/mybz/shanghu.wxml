@@ -1,0 +1,79 @@
+
+  <view class="mainsdhanghu _cc8c8d7">
+    <!-- 顶部区域 -->
+    <view class="wenzih _cc8c8d7">
+      <view class="leftjia _cc8c8d7">
+        <view class="tufendan _cc8c8d7">
+          <image src="../../assets/images/oppo.png" class="_cc8c8d7"/>
+        </view>麦肯基西乡店
+      </view>
+      <view class="logoqu _cc8c8d7">取消关注</view>
+    </view>
+    <!-- 地址商家烂 -->
+    <view class="bazanin _cc8c8d7">
+      <!-- 身 -->
+      <view class="dianrei _cc8c8d7">
+        <view class="zuodinzhi _cc8c8d7">
+          <!-- <view>
+            肯德基(西乡店)
+            <van-tag round plain color="#FF7901" text-color="#FF7901" type="warning">+ 关注</van-tag>
+          </view>-->
+          <view style="font-size:24rpx; color:#717171;" class="_cc8c8d7">深圳市罗湖区文锦路13号楼 3号 一侧吧</view>
+          <view style="font-size:20rpx; color:#ccc;" class="_cc8c8d7">
+            <van-icon name="location-o" color="#FF7800" class="_cc8c8d7"/>
+            <van-icon name="arrow-left" class="_cc8c8d7"/>0.5km 离我最近
+          </view>
+        </view>
+        <view class="lineba _cc8c8d7"/>
+        <view class="youbilo _cc8c8d7">
+          <van-icon name="phone-circle-o" size="40px" class="_cc8c8d7"/>
+        </view>
+      </view>
+      <!-- 尾 -->
+      <view class="_cc8c8d7">
+        <van-cell is-link="is-link" title="查看全部246家分店" link-type="navigateTo" url="/pages/bxqy/fendan" class="_cc8c8d7"/>
+      </view>
+    </view>
+    <!-- 内容区域栏目一 -->
+    <view class="waitianev _cc8c8d7">
+      <view class="carli _cc8c8d7">
+        <view class="picc _cc8c8d7">
+          <image src="../../assets/images/zhong.png" class="_cc8c8d7"/>
+        </view>
+        <view class="cenhan _cc8c8d7">
+          <view class="shaung _cc8c8d7">
+            巨无霸双人堡套餐
+            <van-icon name="cross" class="_cc8c8d7"/>30
+          </view>
+          <view class="_cc8c8d7">9月2日10: 00自动开奖</view>
+        </view>
+
+        <view class="rightyou _cc8c8d7">
+          <navigator url="/pages/bxqy/bainfo" hover-class="navigator-hover" class="_cc8c8d7">去看看</navigator>
+        </view>
+      </view>
+    </view>
+    <!--  -->
+    <view class="dibushuo _cc8c8d7">一小时前</view>
+    <!-- 内容栏目二 其他商家 -->
+    <view class="baoguo _cc8c8d7"  wx:for="{{3}}" wx:key="index">
+      <view class="tianhong _cc8c8d7">
+        <!-- <view class="shnagtian">
+          <view class="lefttulo">
+            <image src="../../assets/images/hong.png" />
+          </view>
+          <view style="margin-right:20rpx; font-size:20rpx; color:#ccc;">一小时前</view>
+        </view>-->
+        <view class="tucare _cc8c8d7">
+          <view class="tucarekk _cc8c8d7">
+            <image src="../../assets/images/opp.png" class="_cc8c8d7"/>
+          </view>
+          <view class="shuomin _cc8c8d7">
+            <view class="_cc8c8d7">六一儿童节</view>
+            <view class="_cc8c8d7">麦肯基送你儿童节礼物一份</view>
+          </view>
+        </view>
+      </view>
+      <view class="dibushuo _cc8c8d7">昨天 10:00</view>
+    </view>
+  </view>

@@ -1,0 +1,51 @@
+
+  <view class="mainbltter _7db80a7">
+    <!-- 标题 -->
+    <view class="titlebete _7db80a7">
+      巨无霸双人堡套餐
+      <van-icon name="cross" class="_7db80a7"/>30
+    </view>
+    <view class="yuanchaun _7db80a7">原创: 你兽爷 兽楼处 今天</view>
+    <!-- 文章内容区域 -->
+
+    <view class="bookmain _7db80a7">说美食，界定有歧义。南美亚马逊流域有一种虫子，面目狰狞，浑身粘液，外人视为恶物，当地人却奉为美食。再如幼鼠，多数人心存敌意，但广东沿海一带却有人嗜好“三吱溜”，即把浑身通红无毛的幼鼠用筷子夹起，幼鼠“吱吱”乱叫，是谓“一吱溜”；再把幼鼠放入盛有由葱、姜、蒜、醋、糖、油等配制的调料盅内一涮，幼鼠再叫，谓之“二吱溜”；最后食客将幼鼠送入口中一咬，幼鼠狂叫，这就是闻名于南方食客中的“三吱溜”！相信这样的场面，在多数人看来不止是恶心，更是恐怖！但对于喜好此菜的人来讲，却是美味。因而这“美食”之意，也就因人而异，因地而异。家母在世时，曾对我说过这样的俗语：“饿时糠也甜，饱时肉也粘黏。”</view>
+
+    <!--发布时间 -->
+    <view class="bushijian _7db80a7">本文发布于2019-09-09</view>
+    <view class="dibulan _7db80a7">
+      <view class="_7db80a7">阅读 10万+</view>
+      <view class="_7db80a7">
+        <van-icon color="#FF7900" name="browsing-history" class="_7db80a7"/>在看 558
+      </view>
+    </view>
+    <!--评论区域 -->
+    <view class="zuipin _7db80a7">
+      <view class="huawrite _7db80a7">
+        <!-- 顶 -->
+        <view class="caipin _7db80a7">
+          <view class="xiaolun _7db80a7">精彩评论</view>
+          <view class="pinlun _7db80a7">
+            写留言
+            <van-icon name="arrow" class="_7db80a7"/>
+          </view>
+        </view>
+        <!-- 内容 -->
+        <view class="writeneijing _7db80a7"  wx:for="{{4}}" wx:key="index">
+          <view class="shangbanjie _7db80a7">
+            <view class="renxiang _7db80a7">
+              <image src="../../assets/images/people.png" class="_7db80a7"/>
+            </view>
+            <view class="youxiangxi _7db80a7">
+              <view style="color:#B0B0B0; font-size:30rpx;" class="_7db80a7">团队详情及文字说明部分</view>
+              <view style="color:#FD7900; font-size:26rpx;" class="_7db80a7">
+                <van-icon color="#FD7900" name="good-job-o" class="_7db80a7"/>
+                <text class="_7db80a7">228</text>
+              </view>
+            </view>
+          </view>
+          <!-- 具体内容 -->
+          <view style="font-size:24rpx;" class="_7db80a7">使用规则~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~讲故事的空间打开洒过的口号是v的</view>
+        </view>
+      </view>
+    </view>
+  </view>

@@ -1,0 +1,31 @@
+
+  <view>
+    <!-- 顶部区域 -->
+    <view class="wenzih">
+      <view class="leftjia">
+        <view class="tufendan">
+          <image src="../../assets/images/oppo.png"/>
+        </view>麦肯基西乡店
+      </view>
+      <view class="logoqu">取消关注</view>
+    </view>
+    <view class="gegetiao"/>
+    <!--店详情页面 -->
+    <view class="dianrei"  wx:for="{{6}}" wx:key="index">
+      <view class="zuodinzhi">
+        <view>
+          肯德基(西乡店)
+          <van-tag round="round" plain color="#FF7901" text-color="#FF7901" type="warning">+ 关注</van-tag>
+        </view>
+        <view style="font-size:24rpx; color:#717171;">深圳市罗湖区文锦路13号楼 3号 一侧吧</view>
+        <view style="font-size:20rpx; color:#ccc;">
+          <van-icon name="location" color="#FF7800"/>
+          <van-icon name="arrow-left"/>0.5km 离我最近
+        </view>
+      </view>
+      <view class="lineba"/>
+      <view class="youbilo">
+        <van-icon name="phone-circle-o" size="40px"/>
+      </view>
+    </view>
+  </view>

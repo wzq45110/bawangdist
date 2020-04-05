@@ -1,0 +1,102 @@
+.mainbltter._7db80a7 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.mainbltter .titlebete._7db80a7 {
+  position: absolute;
+  left: 20rpx;
+  top: 30rpx;
+  width: 80%;
+  height: 50rpx;
+  font-size: 50rpx;
+  font-weight: 900;
+}
+.mainbltter .yuanchaun._7db80a7 {
+  width: 100%;
+  left: 20rpx;
+  top: 109rpx;
+}
+.mainbltter .yuanchaun._7db80a7,
+.mainbltter .bushijian._7db80a7 {
+  position: absolute;
+  color: #999999;
+  font-size: 30rpx;
+}
+.mainbltter .bookmain._7db80a7,
+.mainbltter .dibulan._7db80a7 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  width: 94%;
+  color: #999999;
+  font-size: 30rpx;
+}
+.mainbltter .bookmain._7db80a7 {
+  height: 600rpx;
+  top: 176rpx;
+}
+.mainbltter .bushijian._7db80a7 {
+  width: 80%;
+  left: 20rpx;
+  top: 789rpx;
+}
+.mainbltter .dibulan._7db80a7 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1rpx solid #eee;
+  height: 100rpx;
+  top: 820rpx;
+}
+.mainbltter .zuipin._7db80a7 {
+  position: absolute;
+  width: 98%;
+  top: 900rpx;
+}
+.mainbltter .zuipin .huawrite._7db80a7 {
+  width: 100%;
+  background-color: #fff;
+}
+.mainbltter .zuipin .huawrite .caipin._7db80a7 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100rpx;
+}
+.mainbltter .zuipin .huawrite .caipin .xiaolun._7db80a7 {
+  margin-left: 20rpx;
+}
+.mainbltter .zuipin .huawrite .caipin .pinlun._7db80a7 {
+  margin-right: 20rpx;
+  font-size: 28rpx;
+}
+.mainbltter .zuipin .writeneijing._7db80a7 {
+  width: 100%;
+  background-color: #fff;
+}
+.mainbltter .zuipin .writeneijing .shangbanjie._7db80a7 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50rpx;
+}
+.mainbltter .zuipin .writeneijing .shangbanjie .renxiang._7db80a7 {
+  margin-left: 20rpx;
+  width: 60rpx;
+  height: 60rpx;
+}
+.mainbltter .zuipin .writeneijing .shangbanjie .renxiang image._7db80a7 {
+  width: 100%;
+  height: 100%;
+}
+.mainbltter .zuipin .writeneijing .shangbanjie .youxiangxi._7db80a7 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600rpx;
+  height: 60rpx;
+  margin-right: 20rpx;
+}

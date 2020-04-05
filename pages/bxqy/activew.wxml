@@ -1,0 +1,280 @@
+
+  <view class="baxmain">
+    <!-- 轮播图区域 -->
+    <swiper circular="circular" indicator-dots indicator-color="#ffffff" indicator-active-color="#FF7900">
+      <swiper-item  wx:for="{{swiperbxList}}" wx:key="index">
+        <image src="{{item.image_src}}"/>
+      </swiper-item>
+    </swiper>
+    <!-- 文字说明区域 -->
+    <view class="bawenzi">
+      <!-- 上区域 -->
+      <view class="textp">
+        <view style="font-size:40rpx;">
+          巨无霸双人汉堡
+          <van-icon name="cross"/>30
+        </view>
+        <view style="color:#ccc; font-size:30rpx;">
+          <van-icon color="orange" size="28px" name="star-o"/>
+        </view>
+      </view>
+      <!-- 右边区域 -->
+      <view class="wenzixia">
+        <view class="waibu">
+          <!-- <view class="shangbu">
+            <view>麦肯基西乡店</view>
+            <view class="zanan" style="font-size:20rpx;">赞助</view>
+          </view>-->
+          <view style="color:#ccc; font-size:30rpx;">9月2日10: 00 自动开奖</view>
+        </view>
+        <view style="font-size:28rpx;">
+          <text style="color:orange;">200</text>霸气值可兑
+        </view>
+      </view>
+    </view>
+    <!-- 整个内容区域 -->
+    <view class="zengbain">
+      <!-- 赞助商区域 -->
+      <view class="bazanin">
+        <!-- 头 -->
+        <view class="dayren">
+          <!-- <view class="diyiday">每日任务</view> -->
+          <view class="wenzih">
+            <view class="leftjia">赞助商信息</view>
+            <view class="logoqu">
+              <navigator url="/pages/bxqy/anzhu" hover-class="navigator-hover">我要赞助</navigator>
+            </view>
+          </view>
+        </view>
+        <!-- 身 -->
+        <view class="dianrei">
+          <view class="zuodinzhi">
+            <view>
+              肯德基(西乡店)
+              <van-tag round="round" plain color="#FF7901" text-color="#FF7901" type="warning">+ 关注</van-tag>
+            </view>
+            <view style="font-size:24rpx; color:#717171;">深圳市罗湖区文锦路13号楼 3号 一侧吧</view>
+            <view style="font-size:20rpx; color:#ccc;">
+              <van-icon name="location-o" color="#FF7800"/>
+              <van-icon name="arrow-left"/>0.5km 离我最近
+            </view>
+          </view>
+          <view class="lineba"/>
+          <view class="youbilo">
+            <van-icon name="phone-circle-o" size="40px"/>
+          </view>
+        </view>
+        <!-- 尾 -->
+        <view>
+          <van-cell is-link="is-link" title="查看全部246家分店" link-type="navigateTo" url="/pages/bxqy/fendan"/>
+        </view>
+      </view>
+
+      <!--开奖结果与图介绍区域 -->
+      <view class="resultjie">
+        <van-tabs color="#FF7900" line-width="40"  bind:click="onClick">
+          <van-tab title="开奖结果">
+            <!-- 内容一区域 -->
+            <view class="kaijiangyi">
+              <view class="tishibaiao">
+                很遗憾, 你未中奖
+                <van-icon class="tutyutu" color="#fff" name="clear"/>
+              </view>
+              <!--小字 -->
+              <view class="xiaozihah">为你准备了如下福利</view>
+              <!-- 福利区域 -->
+              <view class="fulishang">
+                <view class="xiaopinhe" style="margin-left:20rpx;">
+                  <!-- 内部详情 -->
+                  <view class="liwulo">
+                    <!-- <image src /> -->
+                  </view>
+                  <view class="liyiya">聚好礼享中秋</view>
+                  <view class="lierya">大闸蟹月饼0元拿</view>
+                  <view class="lisanya">点击领取</view>
+                </view>
+                <view class="xiaopinhe" style="margin-right:20rpx; border:2rpx solid #CFCFCF;">
+                  <!-- 内部详情 -->
+                  <view class="liwulo">
+                    <!-- <image src /> -->
+                  </view>
+                  <view class="liyiya">抽奖助手送给 奔跑的老王</view>
+                  <view class="lierya">大闸蟹月饼0元拿</view>
+                  <view class="lisanya" style="background-color: #ccc;">点击查看</view>
+                </view>
+              </view>
+              <!--标题 -->
+              <view class="ziziii">中 奖 者 名 单</view>
+
+              <!-- 名单详情区域 -->
+              <view class="listquyu">
+                <view class="shangzhe">
+                  奖品: MAC 口红任意色号一支
+                  <text style="color:#FF7900">
+                    <van-icon color="#FF7900" name="cross"/>3名
+                  </text>
+                </view>
+                <view class="xiazhe">
+                  <view class="hfjkg">
+                    <view class="tutughjy"/>
+                    <view>小红</view>
+                  </view>
+                  <view class="hfjkg">
+                    <view class="tutughjy"/>
+                    <view>小红</view>
+                  </view>
+                  <view class="hfjkg">
+                    <view class="tutughjy"/>
+                    <view>小红</view>
+                  </view>
+                </view>
+              </view>
+              <!-- 2栏 -->
+              <view class="listquyu" style="top:1000rpx;">
+                <view class="shangzhe">
+                  奖品: MAC 口红任意色号一支
+                  <text style="color:#FF7900">
+                    <van-icon color="#FF7900" name="cross"/>3名
+                  </text>
+                </view>
+                <view class="xiazhe">
+                  <view class="hfjkg">
+                    <view class="tutughjy"/>
+                    <view>小红</view>
+                  </view>
+                  <view class="hfjkg">
+                    <view class="tutughjy"/>
+                    <view>小红</view>
+                  </view>
+                  <view class="hfjkg">
+                    <view class="tutughjy"/>
+                    <view>小红</view>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </van-tab>
+          <van-tab title="图文介绍">内容 2</van-tab>
+        </van-tabs>
+      </view>
+
+      <!--图文区域 -->
+      <view class="tuwenbain">
+        <!-- <view class="htou">团购详情及文字说明部分</view>
+        <view class="zxjg">有效期文字内容</view>
+        <view class="zxjg">当天营业时间</view>
+        <view class="zxjg">使用规则~~~~~~</view>-->
+        <!-- 点击按钮 -->
+        <!-- <view class="niubj"> -->
+        <!-- <view class="haojiang" style="margin-left:120rpx;">抽 奖</view>
+        <view class="haojiang" style="margin-right:120rpx;">保 中</view>-->
+        <!-- <button bindtap="showPopupjia" class="haojiang" style="margin-left:150rpx;">抽 奖</button>
+          <button bindtap="showPopup" class="haojiang" style="margin-right:150rpx;">保 中</button>
+        </view>-->
+
+        <!-- 小文字 -->
+        <view class="xiaowenz">
+          感谢
+          <text style="color:#FF7902;">18767</text>人参与, 查看全部
+          <van-icon name="arrow"/>
+        </view>
+        <!-- 头像区域 -->
+        <view class="peopletu">
+          <view class="xiaobio" style="margin-left:200rpx;">
+            <image src="../../assets/images/people.png"/>
+          </view>
+          <view class="xiaobio">
+            <image src="../../assets/images/people.png"/>
+          </view>
+          <view class="xiaobio">
+            <image src="../../assets/images/people.png"/>
+          </view>
+          <view class="xiaobio" style="margin-right:200rpx;">
+            <image src="../../assets/images/people.png"/>
+          </view>
+        </view>
+      </view>
+      <!-- 评论区域 -->
+      <view class="huawrite">
+        <!-- 顶 -->
+        <view class="caipin">
+          <view class="xiaolun">精彩评论</view>
+          <view class="pinlun">
+            写评论
+            <van-icon name="arrow" color="green"/>
+          </view>
+        </view>
+        <!-- 内容 -->
+        <view class="writeneijing"  wx:for="{{3}}" wx:key="index">
+          <view class="shangbanjie">
+            <view class="renxiang">
+              <image src="../../assets/images/people.png"/>
+            </view>
+            <view class="youxiangxi">
+              <view style="color:#B0B0B0; font-size:30rpx;">团队详情及文字说明部分</view>
+              <view style="color:#FD7900; font-size:26rpx;">
+                <van-icon color="#FD7900" name="good-job-o"/>
+                <text>228</text>
+              </view>
+            </view>
+          </view>
+          <!-- 具体内容 -->
+          <view style="font-size:24rpx;">使用规则~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~讲故事的空间打开洒过的口号是v的</view>
+        </view>
+      </view>
+    </view>
+    <!-- 弹出层 保中成功内容 -->
+    <van-popup show="{{ shwl }}"  bind:close="onClose" round="round" closeable="closeable" close-icon="close">
+      <view class="gongsucess">
+        <view class="shangsuche">恭喜, 保中成功</view>
+        <view class="jingdeng">静等开奖吧！</view>
+        <view class="guanzhgugg">
+          关注《
+          <text style="color:#ff9131">深圳霸王到</text>》公众号
+        </view>
+        <view class="tongzhi">获取最新霸王餐信息，不错过中奖通知。</view>
+        <!--二维码区域 -->
+        <view class="weimam">
+          <image src="../../assets/images/erma.png"/>
+        </view>
+        <view class="xiaxiao">扫一扫关注公众号</view>
+      </view>
+    </van-popup>
+    <!-- 弹出层 保中失败内容 -->
+    <van-popup show="{{show }}" bind:close="onClose" round="round" closeable="closeable" close-icon="close">
+      <view class="gongsucess" style="border:10rpx solid #CCCECE;">
+        <view class="shangsuche" style="color:#666666">遗憾, 保中失败</view>
+        <view class="xinjiaba">抱歉,你的霸气值不足,无法保中</view>
+        <view class="jingdeng" style="top:150rpx">
+          去获取霸气值
+          <van-icon name="arrow" color="#ff9131"/>
+        </view>
+        <view class="guanzhgugg">
+          关注《
+          <text style="color:#ff9131">深圳霸王到</text>》公众号
+        </view>
+        <view class="tongzhi">获取最新霸王餐信息，不错过中奖通知。</view>
+        <!--二维码区域 -->
+        <view class="weimam">
+          <image src="../../assets/images/erma.png"/>
+        </view>
+        <view class="xiaxiao">扫一扫关注公众号</view>
+      </view>
+    </van-popup>
+    <!-- 弹出层 抽奖参与成功 -->
+    <van-popup show="{{showw}}" bind:close="onClose" round="round" closeable="closeable" close-icon="close">
+      <view class="gongsucess">
+        <view class="shangsuche" style="background-color:#ff7900; width: 70%; color:#ffffff; border-radius:20rpx;">参与成功</view>
+        <view class="guanzhgugg">
+          关注《
+          <text style="color:#ff9131">深圳霸王到</text>》公众号
+        </view>
+        <view class="tongzhi">获取最新霸王餐信息，不错过中奖通知。</view>
+        <!--二维码区域 -->
+        <view class="weimam">
+          <image src="../../assets/images/erma.png"/>
+        </view>
+        <view class="xiaxiao">扫一扫关注公众号</view>
+      </view>
+    </van-popup>
+  </view>

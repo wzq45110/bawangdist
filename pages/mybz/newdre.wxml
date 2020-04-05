@@ -1,0 +1,18 @@
+
+  <view class="newmaindre">
+    <!-- <van-icon name="manager" slot="left-icon"/> -->
+    <van-cell-group border="false">
+      <van-cell title="尼古拉斯" icon="contact"/>
+      <van-cell title="13745634890" icon="orders-o"/>
+      <van-cell title="重庆市渝北区冉家呗" icon="location-o"/>
+      <van-cell title="请输入详细地址" icon="aim" border="false"/>
+    </van-cell-group>
+    <!-- 割线区域 -->
+    <view class="fengege"/>
+    <!-- 默认地址 -->
+    <view class="mozhi">
+      <van-radio checked-color="#FF7900">设置默认地址</van-radio>
+    </view>
+    <!-- 保存按钮区域 -->
+    <view class="baoan">保存</view>
+  </view>

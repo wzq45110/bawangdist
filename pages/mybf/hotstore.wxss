@@ -1,0 +1,102 @@
+.hotzhimain {
+  width: 100%;
+  height: 100%;
+}
+.hotzhimain .tophot {
+  width: 100%;
+  height: 200rpx;
+}
+.hotzhimain .tophot .shzhi {
+  border-bottom: 1rpx solid #ccc;
+}
+.hotzhimain .tophot .shzhi,
+.hotzhimain .tophot .xiahi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100rpx;
+  padding: 0 20rpx;
+}
+.hotzhimain .tophot .biao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 40rpx;
+}
+.hotzhimain .houmian {
+  width: 100%;
+  height: 1000rpx;
+  background-color: #eeeeee;
+  padding-top: 30rpx;
+}
+.hotzhimain .houmian .jibu {
+  position: relative;
+  width: 100%;
+  height: 300rpx;
+  background-color: #fff;
+}
+.hotzhimain .houmian .jibu .ziti {
+  margin-top: 10rpx;
+  margin-left: 10rpx;
+  color: orange;
+}
+.hotzhimain .houmian .jibu .butqian {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  height: 100rpx;
+  line-height: 100rpx;
+  background-color: #ff7900;
+  border-radius: 25rpx;
+  margin-top: 10rpx;
+  color: #fff;
+  text-align: center;
+}
+.hotzhimain .houmian .dayren {
+  width: 100%;
+  height: 600rpx;
+  background-color: #fff;
+  margin-top: 30rpx;
+}
+.hotzhimain .houmian .dayren .diyiday {
+  width: 100%;
+  height: 90rpx;
+  line-height: 90rpx;
+  margin-left: 20rpx;
+  font-weight: 900;
+}
+.hotzhimain .houmian .dayren .wenzih {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 120rpx;
+  border-top: 1rpx solid #eeeeee;
+}
+.hotzhimain .houmian .dayren .wenzih .logoqu {
+  background-color: #ff7900;
+  color: #fff;
+  height: 70rpx;
+  line-height: 60rpx;
+  text-align: center;
+  width: 140rpx;
+  border-radius: 30rpx;
+  margin-right: 35rpx;
+}
+.hotzhimain .houmian .dayren .wenzih .leftjia {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 500rpx;
+  height: 100rpx;
+  margin-left: 20rpx;
+}
+.hotzhimain .houmian .dayren .wenzih .leftjia .xaiozi {
+  color: #b2b2b2;
+  font-size: 24rpx;
+}
+.hotzhimain .houmian .dayren .wenzih .leftjia .xaiozi text {
+  color: #ff7900;
+}

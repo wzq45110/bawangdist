@@ -1,0 +1,51 @@
+.shoudimain {
+  width: 100%;
+  height: 100%;
+}
+.shoudimain .morendre {
+  width: 100%;
+  height: 300rpx;
+}
+.shoudimain .morendre .tiaoge {
+  width: 100%;
+  height: 40rpx;
+  background-color: #f1f1f1;
+}
+.shoudimain .morendre .biande {
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.shoudimain .morendre .biande .leftzuo,
+.shoudimain .morendre .biande .biandeadd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  font-size: 24rpx;
+}
+.shoudimain .morendre .biande .leftzuo {
+  margin-left: 30rpx;
+  width: 140rpx;
+}
+.shoudimain .morendre .biande .leftzuo .kuangtu {
+  width: 30rpx;
+  height: 30rpx;
+  border: 2rpx solid #ccc;
+}
+.shoudimain .morendre .biande .biandeadd {
+  width: 220rpx;
+  margin-right: 30rpx;
+}
+.shoudimain .dianniu {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100rpx;
+  background-color: #ff7900;
+  line-height: 100rpx;
+  text-align: center;
+  color: #ffffff;
+}

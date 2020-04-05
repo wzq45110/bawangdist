@@ -1,0 +1,181 @@
+.mainsdhanghu._cc8c8d7 {
+  height: 100%;
+  width: 100%;
+  background-color: #eeeeee;
+}
+.mainsdhanghu .wenzih._cc8c8d7 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 200rpx;
+  border-bottom: 1rpx solid #eeeeee;
+  background-color: #fff;
+}
+.mainsdhanghu .wenzih .logoqu._cc8c8d7 {
+  background-color: #ff7900;
+  color: #fff;
+  font-size: 28rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  width: 180rpx;
+  border-radius: 30rpx;
+  margin-right: 35rpx;
+}
+.mainsdhanghu .wenzih .leftjia._cc8c8d7 {
+  font-size: 60rpx;
+  font-weight: 700;
+  width: 300rpx;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 28rpx;
+  margin-left: 30rpx;
+}
+.mainsdhanghu .wenzih .leftjia .tufendan._cc8c8d7 {
+  width: 80rpx;
+  height: 80rpx;
+  border: 10rpx solid #fed6b1;
+  border-radius: 50%;
+}
+.mainsdhanghu .wenzih .leftjia .tufendan image._cc8c8d7 {
+  width: 100%;
+  height: 100%;
+}
+.mainsdhanghu .bazanin._cc8c8d7 {
+  width: 100%;
+  height: 280rpx;
+  background-color: #fff;
+  margin-top: 20rpx;
+}
+.mainsdhanghu .bazanin .dianrei._cc8c8d7 {
+  position: relative;
+  width: 100%;
+  height: 200rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.mainsdhanghu .bazanin .dianrei .zuodinzhi._cc8c8d7,
+.mainsdhanghu .bazanin .dianrei .lineba._cc8c8d7,
+.mainsdhanghu .bazanin .dianrei .youbilo._cc8c8d7 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.mainsdhanghu .bazanin .dianrei .zuodinzhi._cc8c8d7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  left: 30rpx;
+  height: 150rpx;
+  width: 60%;
+}
+.mainsdhanghu .bazanin .dianrei .lineba._cc8c8d7 {
+  width: 2rpx;
+  height: 100rpx;
+  background-color: #999999;
+  right: 220rpx;
+}
+.mainsdhanghu .bazanin .dianrei .youbilo._cc8c8d7 {
+  right: 70rpx;
+}
+.mainsdhanghu .waitianev._cc8c8d7 {
+  width: 100%;
+  height: 250rpx;
+  background-color: #fff;
+  margin-top: 30rpx;
+  border-bottom: 1rpx solid #e7e7e7;
+}
+.mainsdhanghu .waitianev .carli._cc8c8d7 {
+  width: 90%;
+  height: 250rpx;
+  position: relative;
+  margin-left: 30rpx;
+}
+.mainsdhanghu .waitianev .carli .picc._cc8c8d7 {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 250rpx;
+  height: 140rpx;
+}
+.mainsdhanghu .waitianev .carli .picc image._cc8c8d7 {
+  width: 100%;
+  height: 100%;
+}
+.mainsdhanghu .waitianev .carli .cenhan._cc8c8d7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  left: 280rpx;
+  top: 50%;
+  height: 130rpx;
+  transform: translateY(-50%);
+  font-size: 24rpx;
+}
+.mainsdhanghu .waitianev .carli .cenhan .shaung._cc8c8d7 {
+  font-size: 28rpx;
+  font-weight: 700;
+}
+.mainsdhanghu .waitianev .carli .rightyou._cc8c8d7 {
+  position: absolute;
+  font-size: 24rpx;
+  right: 0;
+  bottom: 60rpx;
+  width: 100rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  background-color: #ff7900;
+  border-radius: 15rpx;
+  color: #ffffff;
+}
+.mainsdhanghu .dibushuo._cc8c8d7 {
+  width: 100%;
+  height: 50rpx;
+  background-color: #fff;
+  line-height: 50rpx;
+  text-align: center;
+  color: #eee;
+  font-size: 20rpx;
+}
+.mainsdhanghu .baoguo._cc8c8d7 {
+  margin-top: 30rpx;
+}
+.mainsdhanghu .baoguo .tianhong._cc8c8d7 {
+  width: 100%;
+  height: 380rpx;
+  border-bottom: 1rpx solid #eee;
+  background-color: #fff;
+  padding-top: 30rpx;
+}
+.mainsdhanghu .baoguo .tianhong .tucare._cc8c8d7 {
+  position: relative;
+  width: 100%;
+  height: 380rpx;
+}
+.mainsdhanghu .baoguo .tianhong .tucare .tucarekk._cc8c8d7 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  width: 95%;
+  height: 350rpx;
+}
+.mainsdhanghu .baoguo .tianhong .tucare .tucarekk image._cc8c8d7 {
+  width: 100%;
+  height: 100%;
+}
+.mainsdhanghu .baoguo .tianhong .tucare .shuomin._cc8c8d7 {
+  position: absolute;
+  left: 34rpx;
+  top: 254rpx;
+  width: 95%;
+  height: 50rpx;
+  z-index: 100;
+  color: #fff;
+  font-size: 30rpx;
+}

@@ -1,0 +1,114 @@
+.mymain {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.mymain .mymaintop {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30rpx;
+  height: 250rpx;
+  width: 100%;
+  background-color: #ff7900;
+  background: linear-gradient(to top, #ffa12f, #ffdd96);
+}
+.mymain .mymaintop .leftpic {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20rpx;
+}
+.mymain .mymaintop .leftpic .picnei {
+  background-color: #eeeeee;
+  border-radius: 50%;
+}
+.mymain .mymaintop .leftpic .ziti,
+.mymain .mymaintop .leftpic .picnei {
+  width: 120rpx;
+  height: 120rpx;
+  line-height: 120rpx;
+  text-align: center;
+}
+.mymain .mymaintop .rightpeo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 33rpx;
+  width: 200rpx;
+  height: 60rpx;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 25rpx 0 0 25rpx;
+  color: #fff;
+}
+.mymain .carlan {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 200rpx;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  height: 200rpx;
+  background-color: #fff;
+  border-radius: 20rpx;
+}
+.mymain .carlan .zhuwen {
+  text-align: center;
+}
+.mymain .buttonxia {
+  padding-top: 180rpx;
+  background-color: #eeeeee;
+  width: 100%;
+  height: 650rpx;
+}
+.mymain .buttonxia .asdkadk {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100rpx;
+  font-size: 30rpx;
+  box-sizing: border-box;
+  padding: 0 30rpx;
+  background-color: #ffff;
+}
+.mymain .buttonxia .asdkadk .rightme {
+  width: 30%;
+}
+.mymain .buttonxia .asdkadk .rightme text {
+  position: absolute;
+  right: 40rpx;
+  top: 5rpx;
+}
+.mymain .buttonxia .asdkadk .rightme .tuba {
+  position: absolute;
+  right: 0rpx;
+  top: 10rpx;
+}
+.mymain .buttonxia .asdkadk .leftme {
+  width: 70%;
+}
+.mymain .buttonxia .asdkadk .leftme text {
+  position: absolute;
+  left: 40rpx;
+  top: 8rpx;
+}
+.mymain .buttonxia .asdkadk .leftme .sfjoi {
+  position: absolute;
+  left: 0rpx;
+  top: 10rpx;
+}
+.mymain .buttonxia .asdkadk .rightme,
+.mymain .buttonxia .asdkadk .leftme {
+  position: relative;
+  height: 60rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mymain .buttonxia .linxian {
+  width: 100%;
+  height: 1rpx;
+  background-color: #ccc;
+  margin-left: 30rpx;
+}
